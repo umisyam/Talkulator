@@ -1,9 +1,12 @@
+![icon](https://github.com/umisyam/Talkulator/blob/master/images/Icon-72@2x.png?raw=true) 
 # TALKULATOR
 ## Let the calculator do the talking.
-+ Available in 38 languages 
-+ Cool feature # 2
++ Normal basic math functions
++ Speech available in 38 languages 
++ Day vs Night mode
 
 Umi's first attempt in learning Swift for iOS development. iOS Fall 2015.
 
 ## Screen Shot
-![ScreenShot](https://github.com/samuraipapa/BestTalkingCalc/blob/master/Screen%20Shot%202015-10-08%20at%202.57.24%20PM.png) 
+![ScreenShot0](https://github.com/umisyam/Talkulator/blob/master/images/scrshot0.png?raw=true) 
+![ScreenShot1](https://github.com/umisyam/Talkulator/blob/master/images/scrshot1.png?raw=true) 
