@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E89F9DB1BE31F9A00E269A2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E89F9DA1BE31F9A00E269A2 /* Launch Screen.storyboard */; };
+		63DACD4819DC93FA009CD84A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DACD4719DC93FA009CD84A /* AppDelegate.swift */; };
+		63DACD4A19DC93FA009CD84A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DACD4919DC93FA009CD84A /* ViewController.swift */; };
+		63DACD4D19DC93FA009CD84A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63DACD4B19DC93FA009CD84A /* Main.storyboard */; };
+		63DACD4F19DC93FA009CD84A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63DACD4E19DC93FA009CD84A /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63DACD5819DC93FA009CD84A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63DACD3A19DC93F9009CD84A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63DACD4119DC93FA009CD84A;
+			remoteInfo = Calculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E89F9DA1BE31F9A00E269A2 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		63DACD4219DC93FA009CD84A /* Talkulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Talkulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63DACD4619DC93FA009CD84A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63DACD4719DC93FA009CD84A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63DACD4919DC93FA009CD84A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63DACD4C19DC93FA009CD84A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63DACD4E19DC93FA009CD84A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		63DACD5719DC93FA009CD84A /* Talkulator.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Talkulator.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63DACD3F19DC93FA009CD84A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63DACD5419DC93FA009CD84A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63DACD3919DC93F9009CD84A = {
+			isa = PBXGroup;
+			children = (
+				63DACD4419DC93FA009CD84A /* Talkulator */,
+				63DACD4319DC93FA009CD84A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63DACD4319DC93FA009CD84A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63DACD4219DC93FA009CD84A /* Talkulator.app */,
+				63DACD5719DC93FA009CD84A /* Talkulator.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63DACD4419DC93FA009CD84A /* Talkulator */ = {
+			isa = PBXGroup;
+			children = (
+				63DACD4719DC93FA009CD84A /* AppDelegate.swift */,
+				63DACD4919DC93FA009CD84A /* ViewController.swift */,
+				63DACD4B19DC93FA009CD84A /* Main.storyboard */,
+				63DACD4E19DC93FA009CD84A /* Images.xcassets */,
+				63DACD4519DC93FA009CD84A /* Supporting Files */,
+				3E89F9DA1BE31F9A00E269A2 /* Launch Screen.storyboard */,
+			);
+			name = Talkulator;
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		63DACD4519DC93FA009CD84A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63DACD4619DC93FA009CD84A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63DACD4119DC93FA009CD84A /* Talkulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63DACD6119DC93FA009CD84A /* Build configuration list for PBXNativeTarget "Talkulator" */;
+			buildPhases = (
+				63DACD3E19DC93FA009CD84A /* Sources */,
+				63DACD3F19DC93FA009CD84A /* Frameworks */,
+				63DACD4019DC93FA009CD84A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Talkulator;
+			productName = Calculator;
+			productReference = 63DACD4219DC93FA009CD84A /* Talkulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63DACD5619DC93FA009CD84A /* TalkulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63DACD6419DC93FA009CD84A /* Build configuration list for PBXNativeTarget "TalkulatorTests" */;
+			buildPhases = (
+				63DACD5319DC93FA009CD84A /* Sources */,
+				63DACD5419DC93FA009CD84A /* Frameworks */,
+				63DACD5519DC93FA009CD84A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63DACD5919DC93FA009CD84A /* PBXTargetDependency */,
+			);
+			name = TalkulatorTests;
+			productName = CalculatorTests;
+			productReference = 63DACD5719DC93FA009CD84A /* Talkulator.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63DACD3A19DC93F9009CD84A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Umi Syam";
+				TargetAttributes = {
+					63DACD4119DC93FA009CD84A = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					63DACD5619DC93FA009CD84A = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 63DACD4119DC93FA009CD84A;
+					};
+				};
+			};
+			buildConfigurationList = 63DACD3D19DC93F9009CD84A /* Build configuration list for PBXProject "Talkulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63DACD3919DC93F9009CD84A;
+			productRefGroup = 63DACD4319DC93FA009CD84A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63DACD4119DC93FA009CD84A /* Talkulator */,
+				63DACD5619DC93FA009CD84A /* TalkulatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63DACD4019DC93FA009CD84A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E89F9DB1BE31F9A00E269A2 /* Launch Screen.storyboard in Resources */,
+				63DACD4D19DC93FA009CD84A /* Main.storyboard in Resources */,
+				63DACD4F19DC93FA009CD84A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63DACD5519DC93FA009CD84A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63DACD3E19DC93FA009CD84A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63DACD4A19DC93FA009CD84A /* ViewController.swift in Sources */,
+				63DACD4819DC93FA009CD84A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63DACD5319DC93FA009CD84A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63DACD5919DC93FA009CD84A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63DACD4119DC93FA009CD84A /* Talkulator */;
+			targetProxy = 63DACD5819DC93FA009CD84A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63DACD4B19DC93FA009CD84A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63DACD4C19DC93FA009CD84A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63DACD5F19DC93FA009CD84A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63DACD6019DC93FA009CD84A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63DACD6219DC93FA009CD84A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = Calculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.umisyam.Talkulator;
+				PRODUCT_NAME = Talkulator;
+			};
+			name = Debug;
+		};
+		63DACD6319DC93FA009CD84A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = Calculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.umisyam.Talkulator;
+				PRODUCT_NAME = Talkulator;
+			};
+			name = Release;
+		};
+		63DACD6519DC93FA009CD84A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.toddperkins.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Talkulator;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Talkulator.app/Talkulator";
+			};
+			name = Debug;
+		};
+		63DACD6619DC93FA009CD84A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.toddperkins.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Talkulator;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Talkulator.app/Talkulator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63DACD3D19DC93F9009CD84A /* Build configuration list for PBXProject "Talkulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63DACD5F19DC93FA009CD84A /* Debug */,
+				63DACD6019DC93FA009CD84A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63DACD6119DC93FA009CD84A /* Build configuration list for PBXNativeTarget "Talkulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63DACD6219DC93FA009CD84A /* Debug */,
+				63DACD6319DC93FA009CD84A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63DACD6419DC93FA009CD84A /* Build configuration list for PBXNativeTarget "TalkulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63DACD6519DC93FA009CD84A /* Debug */,
+				63DACD6619DC93FA009CD84A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63DACD3A19DC93F9009CD84A /* Project object */;
+}
