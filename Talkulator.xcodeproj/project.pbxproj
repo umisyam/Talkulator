@@ -80,8 +80,7 @@
 				63DACD4519DC93FA009CD84A /* Supporting Files */,
 				3E89F9DA1BE31F9A00E269A2 /* Launch Screen.storyboard */,
 			);
-			name = Talkulator;
-			path = Calculator;
+			path = Talkulator;
 			sourceTree = "<group>";
 		};
 		63DACD4519DC93FA009CD84A /* Supporting Files */ = {
@@ -311,7 +310,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
-				INFOPLIST_FILE = Calculator/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Talkulator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.umisyam.Talkulator;
 				PRODUCT_NAME = Talkulator;
@@ -323,7 +322,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
-				INFOPLIST_FILE = Calculator/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Talkulator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.umisyam.Talkulator;
 				PRODUCT_NAME = Talkulator;
