@@ -7,6 +7,8 @@
 
 My first attempt in learning Swift for iOS development. iOS Fall 2015. Parsons School of Design.
 
-## Screen Shot
+## Screenshots
 ![ScreenShot0](https://github.com/umisyam/Talkulator/blob/master/images/scrshot0.png?raw=true) 
 ![ScreenShot1](https://github.com/umisyam/Talkulator/blob/master/images/scrshot1.png?raw=true) 
+
+*Icon was modified from Takao Umehara at The Noun Project, credits to him.*
